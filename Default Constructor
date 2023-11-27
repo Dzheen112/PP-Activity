@@ -1,0 +1,31 @@
+class stud
+
+{
+
+int sno; char sname [40];
+
+public :
+
+stud() // Default Constructor {
+
+sno=0;
+
+strcpy(sname, "new" );
+
+}
+
+void getinfo()
+
+{ cin>> sno;
+
+gets (sname);
+
+}
+
+void showinfo()
+
+{ cout<< sno;
+
+puts (sname);
+
+}
